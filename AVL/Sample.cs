@@ -12,8 +12,8 @@ namespace AVL
         {
             AVL_Tree<int> tree = null;
             tree = new AVL_Tree<int>(Comparer<int>.Default);
-           
-            
+
+
             tree.Add(17);
             tree.Add(1);
             tree.Add(5);
